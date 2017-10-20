@@ -6,7 +6,7 @@ import reducers from './reducers';
 
 const App = () =>{
 	return(
-		    <Provider store={createStore( reducers )} >
+		    <Provider store={createStore(reducers )} >
       		<View />;	
    );
 };
